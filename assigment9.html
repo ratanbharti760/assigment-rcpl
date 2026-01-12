@@ -1,0 +1,228 @@
+<!-- ASSIGNMENT NO-9 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Facebook – Sign Up</title>
+<style>
+    body{
+        margin:0;
+        padding:0;
+        font-family: Arial, Helvetica, sans-serif;
+        background:#f0f2f5;
+    }
+    .logo{
+        text-align:center;
+        font-size:56px;
+        color:#0d6ff0;
+        font-weight:bold;
+        margin-top:30px;
+    }
+    .box{
+        width:400px;
+        background:#fff;
+        margin:20px auto;
+        padding:20px;
+        border-radius:8px;
+        box-shadow:0 2px 8px rgba(0,0,0,0.2);
+    }
+    .box h2{
+        text-align:center;
+        margin:0;
+    }
+    .box p{
+        text-align:center;
+        color:#606770;
+        font-size:14px;
+        margin:5px 0 15px;
+    }
+    input, select{
+        width:95%;
+        padding:10px;
+        margin:6px 0;
+        border:1px solid #ccd0d5;
+        border-radius:5px;
+        font-size:14px;
+    }
+    .name{
+        display:flex;
+        gap:10px;
+    }
+    .gender{
+        display:flex;
+        justify-content:space-between;
+        margin:8px 0;
+    }
+    .gender label{
+        border:1px solid #ccd0d5;
+        margin: 5px;
+        border-radius:5px;
+        width:32%;
+        text-align:center;
+        font-size:14px;
+    }
+    .text{
+        font-size:11px;
+        color:#777;
+        margin:10px 0;
+        line-height: 16px;
+    }
+    .text a{
+        text-decoration: none;
+        color: #1877f2;
+    }
+    .btn{
+        width:50%;
+        background:#42b72a;
+        color:white;
+        border:none;
+        padding:10px;
+        font-size:18px;
+        border-radius:6px;
+        cursor:pointer;
+        
+         justify-content: center;
+        align-items: center;
+       }
+    .login{
+        text-align:center;
+        margin-top:15px;
+    }
+    .login a{
+        text-decoration:none;
+        color:#1877f2;
+        font-size:14px;
+    }
+    .dob{
+        display:flex;
+        padding: 2px;
+    }
+    .dob select{
+        margin: 3px;
+    }
+</style>
+</head>
+<body>
+
+<div class="logo">facebook</div>
+
+<div class="box">
+    <h2>Create a new account</h2>
+    <p>It's quick and easy.</p>
+
+    <div class="name">
+        <input type="text" placeholder="First name">
+        <input type="text" placeholder="Surname">
+    </div>
+    <label>Date of birth</label>
+    <div class="dob"> 
+    <select>
+        <option>Select date </option>
+         <option>1</option>
+         <option>3</option>
+         <option>2</option>
+         <option>5</option>
+         <option>4</option>
+         <option>6</option>
+         <option>8</option>
+         <option>7</option>
+         <option>9</option>
+         <option>10</option>
+         <option>11</option>
+         <option>12</option>
+         <option>13</option>
+         <option>14</option>
+         <option>15</option>
+         <option>16</option>
+         <option>17</option>
+         <option>18</option>
+         <option>19</option>
+         <option>20</option>
+         <option>21</option>
+         <option>22</option>
+         <option>23</option>
+         <option>24</option>
+         <option>25</option>
+         <option>26</option>
+         <option>27</option>
+         <option>28</option>
+         <option>29</option>
+         <option>30</option>
+    </select>
+    <select>
+        <option>Select month </option>
+        <option>January</option>
+        <option>February</option>
+        <option>March</option>
+        <option>April</option>
+        <option>May</option>
+        <option>June</option>
+        <option>July</option>
+        <option>August</option>
+        <option>September</option>
+        <option>October</option>
+        <option>November</option>
+        <option>December</option>
+    </select>
+    <select>
+        <option>Select Year </option>
+        <option>2000</option>
+        <option>2001</option>
+        <option>2002</option>
+        <option>2003</option>
+        <option>2004</option>
+        <option>2005</option>
+        <option>2006</option>
+        <option>2007</option>
+        <option>2008</option>
+        <option>2009</option>
+        <option>2010</option>
+        <option>2011</option>
+        <option>2012</option>
+        <option>2013</option>
+        <option>2014</option>
+        <option>2015</option>
+        <option>2016</option>
+        <option>2017</option>
+        <option>2018</option>
+        <option>2019</option>
+        <option>2020</option>
+        <option>2021</option>
+        <option>2022</option>
+        <option>2023</option>
+        <option>2024</option>
+        <option>2025</option>
+        <option>2026</option>
+        <option>2028</option>
+        <option>2029</option>
+        <option>2030</option>
+    </select>
+    </div> 
+
+
+    <label>Gender</label>
+    <div class="gender">
+        <label><input type="radio" name="g"> Female</label>
+        <label><input type="radio" name="g"> Male</label>
+        <label><input type="radio" name="g"> Custom</label>
+    </div>
+
+    <input type="text" placeholder="Mobile number or email address">
+    <input type="password" placeholder="New password">
+
+    <div class="text">
+        People who use our service may have uploaded your contact information to Facebook. <a href="#">Learn more</a>
+    </div>
+    <div class="text">
+        By clicking Sign Up, you agree to our <a href="#">Terms</a> , <a href="#">Privacy Policy </a>and <a href="#">Cookies Policy</a>.You may receive SMS notifications from us and can opt out at any time.
+    </div>
+
+     <button class="btn">Sign Up</button>
+ 
+    <div class="login">
+        <a href="#">Already have an account?</a>
+    </div>
+</div>
+
+</body>
+</html>
