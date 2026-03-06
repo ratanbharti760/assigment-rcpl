@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+  background: #0d6efd;
+  color: white;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  padding: 60px;
+  align-items: center;
+}
+
+.hero-left {
+  width: 50%;
+}
+
+.hero-left h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.hero-left p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background: #0d6efd;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* HERO RIGHT IMAGE */
+.hero-right {
+  width: 50%;
+  text-align: center;
+}
+
+.hero-right img {
+  width: 300px;
+}
+
+/* HOW IT WORKS */
+.center {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.steps {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  flex-wrap: wrap;
+}
+
+.step-box {
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.step-box h4 {
+  color: #0d6efd;
+}
+
+/* FOOTER */
+.footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+ 
